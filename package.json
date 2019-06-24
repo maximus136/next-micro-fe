@@ -1,0 +1,21 @@
+{
+  "name": "with-zones",
+  "version": "1.0.0",
+  "scripts": {
+    "home": "cd home && next dev -p 4000",
+    "home-build": "next build home",
+    "home-start": "next start home -p 4000",
+    "blog": "cd blog && next dev -p 5000",
+    "blog-build": "next build blog",
+    "blog-start": "next start blog -p 5000",
+    "proxy": "micro-proxy -r rules-dev.json"
+  },
+  "dependencies": {
+    "axios": "^0.19.0",
+    "micro-proxy": "^1.0.0",
+    "next": "^8.1.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "license": "ISC"
+}
