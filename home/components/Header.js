@@ -2,7 +2,7 @@ import axios from 'axios';
 
 export default () => {
     const loginFn = () => {
-    sessionStorage.setItem('token', 's3oMWxzTjUsm0ERSZxd3XdP0Nt-5jmV8Fgjr');
+    sessionStorage.setItem('token', '<token>');
     const form = document.createElement('Form');
     const input = document.createElement('input');
     document.body.appendChild(form);
@@ -11,7 +11,7 @@ export default () => {
     form.enctype = 'multipart/form-data';
     input.type = 'hidden';
     input.name = 'authToken';
-    input.value = 's3oMWxzTjUsm0ERSZxd3XdP0Nt-5jmV8Fgjr';
+    input.value = '<token>';
     form.appendChild(input);
     form.submit();
     };
