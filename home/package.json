@@ -6,7 +6,7 @@
     "start": "yarn build && next dev -p 4000"
   },
   "dependencies": {
-    "axios": "^0.19.0",
+    "axios": "^0.21.1",
     "next": "latest",
     "react": "^16.7.0",
     "react-dom": "^16.7.0"
